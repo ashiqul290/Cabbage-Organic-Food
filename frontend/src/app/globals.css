@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #232323;
+  --secondary: #80B500;
+  --tertiary: #546375;
+  --white: #FFFFFF;
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-tertiary: var(--tertiary);
+  --color-white: var(--white);
+  --font-nunito: "Nunito", sans-serif;
+  --font-inter: "Inter", monospace;
+
+}
+
+@theme inline {
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-tertiary: var(--color-tertiary);
+  --color-white: var(--color-white);
+}
+@theme {
+  --font-nunito: "Nunito", sans-serif;
+  --font-inter: "Inter", monospace;
+}
