@@ -51,7 +51,7 @@ const Header = () => {
     </Container>
     </header>
 
-    <nav>
+    <nav className=" border-b border-gray-300 sticky top-0 left-0 bg-white z-999 w-full">
     <Container>
     <div className="flex justify-between items-center py-[26px]">
     <div className=" flex items-center">
