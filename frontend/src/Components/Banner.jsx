@@ -61,7 +61,7 @@ const Banner = () => {
                 </span>
               </h1>
 
-              <button className="flex items-center border border-gray-400 gap-1 hover:bg-[#699405] font-medium font-nunito text-[15px] text-white bg-secondary px-[30px] py-[17px]">
+              <button className="flex items-center  gap-1 hover:bg-[#699405] font-medium font-nunito shadow-[0_0_5px_0_rgba(0,0,0,1)] rounded-[10px] text-[15px] text-white bg-secondary px-[30px] py-[17px]">
                 Explore Products <FaLongArrowAltRight />
               </button>
             </div>
