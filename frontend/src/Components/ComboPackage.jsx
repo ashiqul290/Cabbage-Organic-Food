@@ -6,7 +6,7 @@ import savonIMG from '@/assets/productIMGVIEW/botttles.png'
 const ComboPackage = () => {
   return (
     <>
-      <div className="bg-[#F7F5EB] py-6">
+      <div className="bg-[#F7F5EB] py-6 my-20">
         <Container>
           <div className=" flex gap-25 items-center  py-10">
             <div className="">
