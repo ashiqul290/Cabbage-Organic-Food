@@ -39,9 +39,9 @@ const ComboPackage = () => {
                     
                 </div>
 
-              <div className="flex gap-4 mt-4">
-                  <button className="bg-primary text-white py-3 px-6 rounded-full font-medium hover:bg-secondary transition duration-300">Shop Now</button>
-                <a href="" className="text-primary font-medium hover:underline">Deal of The Day</a>
+              <div className="flex gap-4 mt-8 items-center">
+                  <button className="bg-secondary text-white py-3 px-6 rounded-[10px] font-medium hover:bg-secondary/80 transition duration-300">Shop Now</button>
+                <a href="" className="text-secondary font-medium hover:underline">Deal of The Day</a>
               </div>
             </div>
           </div>
